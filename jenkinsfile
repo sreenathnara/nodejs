@@ -6,7 +6,7 @@ pipeline {
                git branch: 'main', url: 'https://github.com/sreenathnara/nodejs.git'
             }
          }
-        stage ('docker-build-image) {
+        stage ('docker-build-image') {
             steps {
                      sh '/var/lib/jenkins/workspace/nodejs-application1'
                      sh ' docker build -t sreenathnara/nginx-img1 .'
