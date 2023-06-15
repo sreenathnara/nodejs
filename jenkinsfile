@@ -5,3 +5,7 @@ pipeline {
             steps { 
                git branch: 'main', url: 'https://github.com/sreenathnara/nodejs.git'
             }
+         }
+     }
+}
+
